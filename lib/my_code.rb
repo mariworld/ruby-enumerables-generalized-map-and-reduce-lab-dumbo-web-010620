@@ -12,6 +12,6 @@ def map(array)
 end
 
 def reduce(array, starting_value = nil)
-  array.reduce(starting_value) {|i,a| i + a}
+  array.reduce(starting_value)
   yield(array)
 end
