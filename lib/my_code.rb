@@ -12,8 +12,8 @@ def map(array)
 end
 
 def reduce(array, starting_value = nil)
-  if sv
-    sum = sv
+  if starting_value
+    sum = starting_value
     i = 0
   else
     sum = array[0]
