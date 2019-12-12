@@ -13,5 +13,9 @@ end
 
 def reduce(array, starting_value = nil)
   if sv
-    
+    num = sv
+    i = 0
+  else
+    num = array[0]
+    i = 1
 end
